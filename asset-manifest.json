@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/pizzanini/static/css/main.a14040f2.chunk.css",
-    "main.js": "/pizzanini/static/js/main.3e4e816c.chunk.js",
-    "main.js.map": "/pizzanini/static/js/main.3e4e816c.chunk.js.map",
+    "main.js": "/pizzanini/static/js/main.b431d107.chunk.js",
+    "main.js.map": "/pizzanini/static/js/main.b431d107.chunk.js.map",
     "runtime-main.js": "/pizzanini/static/js/runtime-main.8488e045.js",
     "runtime-main.js.map": "/pizzanini/static/js/runtime-main.8488e045.js.map",
-    "static/js/2.9fb4dad8.chunk.js": "/pizzanini/static/js/2.9fb4dad8.chunk.js",
-    "static/js/2.9fb4dad8.chunk.js.map": "/pizzanini/static/js/2.9fb4dad8.chunk.js.map",
+    "static/js/2.3ad441b1.chunk.js": "/pizzanini/static/js/2.3ad441b1.chunk.js",
+    "static/js/2.3ad441b1.chunk.js.map": "/pizzanini/static/js/2.3ad441b1.chunk.js.map",
     "index.html": "/pizzanini/index.html",
-    "precache-manifest.9da45383a03b0af2e3c87f89d9300c68.js": "/pizzanini/precache-manifest.9da45383a03b0af2e3c87f89d9300c68.js",
+    "precache-manifest.a5e6b3cadb9b92d872f40a05f7cc893d.js": "/pizzanini/precache-manifest.a5e6b3cadb9b92d872f40a05f7cc893d.js",
     "service-worker.js": "/pizzanini/service-worker.js",
     "static/css/main.a14040f2.chunk.css.map": "/pizzanini/static/css/main.a14040f2.chunk.css.map",
-    "static/js/2.9fb4dad8.chunk.js.LICENSE.txt": "/pizzanini/static/js/2.9fb4dad8.chunk.js.LICENSE.txt",
+    "static/js/2.3ad441b1.chunk.js.LICENSE.txt": "/pizzanini/static/js/2.3ad441b1.chunk.js.LICENSE.txt",
     "static/media/footerlogo.png": "/pizzanini/static/media/footerlogo.34d9e8f4.png",
     "static/media/hawaiian.jpg": "/pizzanini/static/media/hawaiian.c2ba2319.jpg",
     "static/media/logo.png": "/pizzanini/static/media/logo.80abb4be.png",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8488e045.js",
-    "static/js/2.9fb4dad8.chunk.js",
+    "static/js/2.3ad441b1.chunk.js",
     "static/css/main.a14040f2.chunk.css",
-    "static/js/main.3e4e816c.chunk.js"
+    "static/js/main.b431d107.chunk.js"
   ]
 }
