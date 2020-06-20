@@ -29,7 +29,7 @@ export default function App() {
                 </React.Fragment>
               )}
             />
-            <Route path='/about' component={About} />
+            <Route path='/pizzanini/about/' component={About} />
           </Switch>
           <Footer />
         </div>
