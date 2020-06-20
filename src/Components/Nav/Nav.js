@@ -79,7 +79,9 @@ export default function Nav() {
 
       <ul className='mobileNav'>
         <li>
-          <img className='mobilelogo' src={logo} />
+          <Link to='/pizzanini/'>
+            <img className='mobilelogo' src={logo} />
+          </Link>
         </li>
 
         <li className='menuBtn' onClick={menuHandler}>
@@ -87,9 +89,11 @@ export default function Nav() {
         </li>
       </ul>
       <div className='itemsMobile'>
-        <Link to='/pizzanini/about/'>
-          <li>About</li>
-        </Link>
+        <li>
+          {' '}
+          <Link to='/pizzanini/about/'>About </Link>
+        </li>
+
         <li>
           <a href='#menu'>Menu</a>
         </li>
