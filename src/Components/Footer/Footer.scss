@@ -1,0 +1,33 @@
+$red: #e7312b;
+$yellow: #fde74c;
+$white: #fff;
+
+.Footer {
+  background-color: #1b1b1b;
+  width: 100%;
+  min-height: 300px;
+  max-height: max-content;
+  color: $white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 50%;
+  }
+
+  p {
+    font-weight: 600;
+    font-size: 12px;
+    margin: 20px 0;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .Footer {
+    img {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.Footer {
+  background-color: #1b1b1b;
+  width: 100%;
+  min-height: 300px;
+  max-height: -webkit-max-content;
+  max-height: -moz-max-content;
+  max-height: max-content;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Footer img {
+  width: 50%;
+}
+
+.Footer p {
+  font-weight: 600;
+  font-size: 12px;
+  margin: 20px 0;
+}
+
+@media screen and (max-width: 690px) {
+  .Footer img {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=Footer.css.map */

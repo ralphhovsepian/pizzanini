@@ -1,0 +1,149 @@
+.About {
+  color: #fff;
+}
+
+.About .intro {
+  margin: 0 auto;
+  width: 100%;
+  min-height: 300px;
+  max-height: -webkit-max-content;
+  max-height: -moz-max-content;
+  max-height: max-content;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.About .intro .left {
+  width: 70%;
+}
+
+.About .facts {
+  width: 100%;
+  min-height: 250px;
+  max-height: -webkit-max-content;
+  max-height: -moz-max-content;
+  max-height: max-content;
+  background-color: #e7312b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.About .facts .fact {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 20%;
+}
+
+.About .facts .fact span {
+  background-color: #fff;
+  border-radius: 50px;
+  color: #e7312b;
+  width: 70px;
+  text-align: center;
+  padding: 15px;
+}
+
+.About .why {
+  background-color: #fff;
+  color: #1b1b1b;
+  width: 100%;
+  min-height: 450px;
+  max-height: -webkit-max-content;
+  max-height: -moz-max-content;
+  max-height: max-content;
+}
+
+.About .why h1 {
+  padding: 20px;
+  text-align: center;
+}
+
+.About .why h1 span {
+  color: #e7312b;
+}
+
+.About .why .reasons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.About .why .reason {
+  color: #1b1b1b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 20%;
+}
+
+.About .why .reason span {
+  background-color: #e7312b;
+  border-radius: 50px;
+  color: #fff;
+  width: 70px;
+  text-align: center;
+  padding: 15px;
+  margin: 10px;
+}
+
+.About .why button {
+  background-color: #fde74c;
+  border-top: 0;
+  border-bottom: 0;
+  border-radius: 50px;
+  border: 0;
+  padding: 2%;
+  font-weight: 900;
+  margin: 5% auto;
+  display: block;
+}
+/*# sourceMappingURL=About.css.map */

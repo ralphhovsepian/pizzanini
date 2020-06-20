@@ -1,0 +1,54 @@
+$red: #e7312b;
+$yellow: #fde74c;
+$white: #fff;
+
+.Newsletter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: $red;
+  width: 100%;
+  min-height: 250px;
+  max-height: max-content;
+
+  h1 {
+    color: $white;
+    width: 40%;
+    margin: 6% 0;
+    span {
+      color: $yellow;
+    }
+  }
+
+  form {
+    font-weight: 800;
+    input {
+      background-color: $white;
+      border: 0;
+      padding: 5% 10%;
+      border-radius: 4px;
+      outline: none;
+    }
+    button {
+      margin: 5px;
+      background-color: $yellow;
+      border-bottom: 0;
+      border-top: 0;
+      border: 0;
+      border-radius: 30px;
+      padding: 3%;
+      cursor: pointer;
+    }
+    button:hover {
+      border: 4px solid $white;
+      color: $red;
+    }
+  }
+}
+@media screen and (max-width: 690px) {
+  .right {
+    display: none;
+  }
+}

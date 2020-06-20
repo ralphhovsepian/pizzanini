@@ -1,0 +1,68 @@
+.Header {
+  margin: 5% 0;
+  width: 100%;
+  min-height: 400px;
+  max-height: -webkit-max-content;
+  max-height: -moz-max-content;
+  max-height: max-content;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Header div {
+  font-size: 30px;
+  width: 50%;
+}
+
+.Header div button {
+  background-color: #fde74c;
+  border-radius: 30px;
+  border: 0;
+  border-top: 0;
+  border-bottom: 0;
+  padding: 3%;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+.Header div button:hover {
+  color: #e7312b;
+  border: 5px solid #fff;
+}
+
+.Header img {
+  width: 350px;
+  height: 350px;
+}
+
+@media screen and (max-width: 660px) {
+  .Header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Header div {
+    font-size: 20px;
+  }
+  .Header img {
+    width: 250px;
+    height: 250px;
+  }
+}
+/*# sourceMappingURL=Header.css.map */

@@ -1,0 +1,75 @@
+.Info {
+  background-color: #fff;
+  width: 100%;
+  min-height: 400px;
+  max-height: -webkit-max-content;
+  max-height: -moz-max-content;
+  max-height: max-content;
+  padding: 4%;
+  color: #1b1b1b;
+}
+
+.Info h1 {
+  text-align: center;
+}
+
+.Info h1 span {
+  color: #e7312b;
+}
+
+.Info i {
+  font-size: 12px;
+  color: grey;
+}
+
+.Info .how {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Info .steps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Info .steps span {
+  margin: 20px;
+  background-color: #e7312b;
+  padding: 20px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+@media screen and (max-width: 690px) {
+  .Info .steps {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+/*# sourceMappingURL=OrderInfo.css.map */
