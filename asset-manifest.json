@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/pizzanini/static/css/main.a14040f2.chunk.css",
+    "main.js": "/pizzanini/static/js/main.b04058bd.chunk.js",
+    "main.js.map": "/pizzanini/static/js/main.b04058bd.chunk.js.map",
+    "runtime-main.js": "/pizzanini/static/js/runtime-main.8488e045.js",
+    "runtime-main.js.map": "/pizzanini/static/js/runtime-main.8488e045.js.map",
+    "static/js/2.cd21e716.chunk.js": "/pizzanini/static/js/2.cd21e716.chunk.js",
+    "static/js/2.cd21e716.chunk.js.map": "/pizzanini/static/js/2.cd21e716.chunk.js.map",
+    "index.html": "/pizzanini/index.html",
+    "precache-manifest.1b45df3a09d1e6869a6158bfcb633fe3.js": "/pizzanini/precache-manifest.1b45df3a09d1e6869a6158bfcb633fe3.js",
+    "service-worker.js": "/pizzanini/service-worker.js",
+    "static/css/main.a14040f2.chunk.css.map": "/pizzanini/static/css/main.a14040f2.chunk.css.map",
+    "static/js/2.cd21e716.chunk.js.LICENSE.txt": "/pizzanini/static/js/2.cd21e716.chunk.js.LICENSE.txt",
+    "static/media/footerlogo.png": "/pizzanini/static/media/footerlogo.34d9e8f4.png",
+    "static/media/hawaiian.jpg": "/pizzanini/static/media/hawaiian.c2ba2319.jpg",
+    "static/media/logo.png": "/pizzanini/static/media/logo.80abb4be.png",
+    "static/media/margarita.jpg": "/pizzanini/static/media/margarita.311b477a.jpg",
+    "static/media/pepperoni.jpg": "/pizzanini/static/media/pepperoni.90434822.jpg",
+    "static/media/pizza.png": "/pizzanini/static/media/pizza.31229bcb.png",
+    "static/media/veggie.jpg": "/pizzanini/static/media/veggie.67638f2d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8488e045.js",
+    "static/js/2.cd21e716.chunk.js",
+    "static/css/main.a14040f2.chunk.css",
+    "static/js/main.b04058bd.chunk.js"
+  ]
+}
