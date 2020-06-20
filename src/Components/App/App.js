@@ -19,7 +19,7 @@ export default function App() {
           <Switch>
             <Route
               exact
-              path='/'
+              path='/pizzanini/'
               render={(props) => (
                 <React.Fragment>
                   <Header />

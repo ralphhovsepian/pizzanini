@@ -54,7 +54,7 @@ export default function Nav() {
     <nav>
       <ul className='nav'>
         <div className='left'>
-          <Link to='/'>
+          <Link to='/pizzanini/'>
             <img src={logo} />
           </Link>
         </div>
