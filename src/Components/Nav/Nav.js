@@ -87,7 +87,9 @@ export default function Nav() {
         </li>
       </ul>
       <div className='itemsMobile'>
-        <li>About</li>
+        <Link to='/pizzanini/about/'>
+          <li>About</li>
+        </Link>
         <li>
           <a href='#menu'>Menu</a>
         </li>
