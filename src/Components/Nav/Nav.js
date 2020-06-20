@@ -59,7 +59,7 @@ export default function Nav() {
           </Link>
         </div>
         <div className='right'>
-          <Link to='/about'>
+          <Link to='/pizzanini/about/'>
             <li>About</li>
           </Link>
 
