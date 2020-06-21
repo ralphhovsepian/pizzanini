@@ -18,6 +18,9 @@ $white: #fff;
   border-top-right-radius: 0;
   position: absolute;
   display: none;
+  .remove {
+    margin: 0 10px;
+  }
   h1,
   p {
     background-color: $yellow;

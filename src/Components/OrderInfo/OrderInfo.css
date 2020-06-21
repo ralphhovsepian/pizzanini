@@ -36,8 +36,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
 .Info .steps {
@@ -62,14 +60,9 @@
 }
 
 @media screen and (max-width: 690px) {
-  .Info .steps {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+  .steps {
+    margin: 1%;
+    font-size: 12px;
   }
 }
 /*# sourceMappingURL=OrderInfo.css.map */

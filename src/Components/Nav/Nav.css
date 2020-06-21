@@ -17,6 +17,10 @@
   display: none;
 }
 
+.checkoutCart .remove {
+  margin: 0 10px;
+}
+
 .checkoutCart h1,
 .checkoutCart p {
   background-color: #fde74c;

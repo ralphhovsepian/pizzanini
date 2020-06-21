@@ -90,7 +90,6 @@ export default function Nav() {
       </ul>
       <div className='itemsMobile'>
         <li>
-          {' '}
           <Link to='/pizzanini/about/'>About </Link>
         </li>
 
@@ -113,7 +112,8 @@ export default function Nav() {
           if (pizzaType.quantity > 0) {
             return (
               <h4 key={key}>
-                {pizzaType.type}: {pizzaType.quantity} x ${pizzaType.price}
+                {pizzaType.type}:<br /> {pizzaType.quantity} x $
+                {pizzaType.price}
                 <button
                   id={pizzaType.id}
                   className='remove'

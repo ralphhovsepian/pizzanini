@@ -19,9 +19,9 @@ export default function Footer() {
           <h3>Payment Methods</h3>
           <p>
             <FontAwesomeIcon icon={faPaypal} size='3x' />
-            &nbsp;&nbsp;
+            &nbsp;&nbsp; &nbsp;&nbsp;
             <FontAwesomeIcon icon={faCreditCard} size='3x' />
-            &nbsp;&nbsp;
+            &nbsp;&nbsp; &nbsp;&nbsp;
             <FontAwesomeIcon icon={faGoogleWallet} size='3x' />
           </p>
         </div>

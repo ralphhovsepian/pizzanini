@@ -14,7 +14,7 @@ export default function OrderInfo() {
         How does it <span>work?</span>
       </h1>
       <div className='how'>
-        <div className='left'>
+        <div className='leftSteps'>
           <div className='steps'>
             <div>
               <h2>Order your pizza</h2>
@@ -36,7 +36,7 @@ export default function OrderInfo() {
           </div>
         </div>
 
-        <div className='right'>
+        <div className='rightSteps'>
           <div className='steps'>
             <div>
               <h2>Delivery</h2>

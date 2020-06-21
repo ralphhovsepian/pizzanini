@@ -146,4 +146,10 @@
   margin: 5% auto;
   display: block;
 }
+
+@media screen and (max-width: 690px) {
+  .why {
+    font-size: 12px;
+  }
+}
 /*# sourceMappingURL=About.css.map */

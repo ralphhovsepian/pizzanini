@@ -61,6 +61,9 @@
 }
 
 @media screen and (max-width: 690px) {
+  .Newsletter {
+    margin: 0 10px;
+  }
   .right {
     display: none;
   }
