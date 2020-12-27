@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import { CartContext } from '../CartContext';
 import { Link } from 'react-router-dom';
 import './Nav.css';
@@ -10,29 +10,15 @@ export default function Nav() {
   const { checkTotal, pizzaName } = useContext(CartContext);
   const [check, setCheck] = checkTotal;
   const [pizza, setPizza] = pizzaName;
+  const [isMenu, setIsMenu] = useState(false);
+  const [isCart, setIsCart] = useState(false);
 
   const menuHandler = () => {
-    let menuBtn = document.querySelector('.menuBtn');
-
-    menuBtn.classList.toggle('opened');
-
-    if (menuBtn.className === 'menuBtn opened') {
-      document.querySelector('.itemsMobile').style.display = 'flex';
-    } else {
-      document.querySelector('.itemsMobile').style.display = 'none';
-    }
+    setIsMenu(!isMenu)
   };
 
   const cartClick = () => {
-    let cart = document.querySelector('.cart');
-
-    cart.classList.toggle('opened');
-
-    if (cart.className === 'cart opened') {
-      document.querySelector('.checkoutCart').style.display = 'block';
-    } else {
-      document.querySelector('.checkoutCart').style.display = 'none';
-    }
+  setIsCart(!isCart)
   };
 
   const cartMinus = (e) => {
@@ -46,6 +32,7 @@ export default function Nav() {
 
         newPizza[id] = newQuantity;
         setPizza(newPizza);
+
       }
     });
   };
@@ -88,6 +75,9 @@ export default function Nav() {
           <FontAwesomeIcon icon={faBars} />
         </li>
       </ul>
+      {
+        isMenu &&
+
       <div className='itemsMobile'>
         <li>
           <Link to='/pizzanini/about/'>About </Link>
@@ -104,6 +94,8 @@ export default function Nav() {
           <FontAwesomeIcon icon={faShoppingCart} />
         </li>
       </div>
+    }
+    {isCart &&
       <div className='checkoutCart'>
         <h1>Cart</h1>
         <p id='total'>Total: ${check}</p>
@@ -111,22 +103,29 @@ export default function Nav() {
         {pizza.map((pizzaType, key) => {
           if (pizzaType.quantity > 0) {
             return (
-              <h4 key={key}>
-                {pizzaType.type}:<br /> {pizzaType.quantity} x $
-                {pizzaType.price}
-                <button
-                  id={pizzaType.id}
-                  className='remove'
-                  onClick={cartMinus}
-                >
-                  x
-                </button>
-              </h4>
+              <div className="item">
+              <p key={key}>
+                {pizzaType.type}
+              </p>
+
+              <p>
+              {pizzaType.quantity} x $
+              {pizzaType.price}
+              </p>
+              <button
+                id={pizzaType.id}
+                className='remove'
+                onClick={cartMinus}
+              >
+                x
+              </button>
+              </div>
             );
           }
         })}
-        {check > 0 ? <button className='checkoutBtn'>Checkout</button> : ''}
+        {check > 0 ? <Link to="/pizzanini/checkout" onClick={() => setIsCart(false)} className='checkoutBtn'>Checkout</Link> : ''}
       </div>
+    }
     </nav>
   );
 }

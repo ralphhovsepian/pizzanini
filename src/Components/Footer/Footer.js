@@ -17,12 +17,10 @@ export default function Footer() {
 
         <div className='payment'>
           <h3>Payment Methods</h3>
-          <p>
-            <FontAwesomeIcon icon={faPaypal} size='3x' />
-            &nbsp;&nbsp; &nbsp;&nbsp;
-            <FontAwesomeIcon icon={faCreditCard} size='3x' />
-            &nbsp;&nbsp; &nbsp;&nbsp;
-            <FontAwesomeIcon icon={faGoogleWallet} size='3x' />
+          <p className="logos">
+            <span><FontAwesomeIcon icon={faPaypal} size='3x'/></span>
+            <span><FontAwesomeIcon icon={faCreditCard} size='3x'/></span>
+            <span><FontAwesomeIcon icon={faGoogleWallet} size='3x'/></span>
           </p>
         </div>
       </div>

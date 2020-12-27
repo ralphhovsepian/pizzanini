@@ -6,7 +6,9 @@ import margherita from '../Styling/margarita.jpg';
 import pepperoni from '../Styling/pepperoni.jpg';
 import veggie from '../Styling/veggie.jpg';
 import hawaiian from '../Styling/hawaiian.jpg';
+
 export default function Menu() {
+
   const { pizzaName, checkTotal } = useContext(CartContext);
   const [pizza, setPizza] = pizzaName;
   const [check, setCheck] = checkTotal;

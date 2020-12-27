@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { CartProvider } from '../CartContext';
 
@@ -10,7 +10,12 @@ import Menu from '../Menu/Menu';
 import Newsletter from '../Newsletter/Newsletter';
 import Footer from '../Footer/Footer';
 import About from '../About/About';
-export default function App() {
+import Checkout from '../Checkout/Checkout';
+import Shipping from '../Checkout/Shipping';
+import PrivateRoute from './PrivateRoute'
+const App = () => {
+
+
   return (
     <CartProvider>
       <Router>
@@ -21,15 +26,17 @@ export default function App() {
               exact
               path='/pizzanini/'
               render={(props) => (
-                <React.Fragment>
+                <Fragment>
                   <Header />
                   <OrderInfo />
                   <Menu />
                   <Newsletter />
-                </React.Fragment>
+                </Fragment>
               )}
             />
-            <Route path='/pizzanini/about/' component={About} />
+            <Route exact path='/pizzanini/about/' component={About} />
+            <Route exact path='/pizzanini/checkout/'><Checkout/></Route>
+            <PrivateRoute component={Shipping} path="/pizzanini/shipping/" exact/>
           </Switch>
           <Footer />
         </div>
@@ -37,3 +44,5 @@ export default function App() {
     </CartProvider>
   );
 }
+
+export default App;

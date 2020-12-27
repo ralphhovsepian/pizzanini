@@ -11,7 +11,8 @@ import {
   faHandPeace,
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-export default function About() {
+
+const About = () => {
   return (
     <div className='About'>
       <div className='intro'>
@@ -90,3 +91,4 @@ export default function About() {
     </div>
   );
 }
+export default About;
