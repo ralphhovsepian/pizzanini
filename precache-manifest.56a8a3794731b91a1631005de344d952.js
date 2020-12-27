@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3bf46bf15e5d9c1b75ec02c16687bff9",
+    "revision": "ec72c78d8c78f4a85e7e0973e0ec8332",
     "url": "/pizzanini/index.html"
   },
   {
-    "revision": "f3049095e0a86261a816",
-    "url": "/pizzanini/static/css/main.edb407b8.chunk.css"
+    "revision": "34241221d4e4bbb895bc",
+    "url": "/pizzanini/static/css/main.c77c3767.chunk.css"
   },
   {
-    "revision": "1d643f12c60c945897bf",
-    "url": "/pizzanini/static/js/2.3ad441b1.chunk.js"
+    "revision": "702a3068e150323bc240",
+    "url": "/pizzanini/static/js/2.d734490c.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/pizzanini/static/js/2.3ad441b1.chunk.js.LICENSE.txt"
+    "url": "/pizzanini/static/js/2.d734490c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f3049095e0a86261a816",
-    "url": "/pizzanini/static/js/main.22a9e4c6.chunk.js"
+    "revision": "34241221d4e4bbb895bc",
+    "url": "/pizzanini/static/js/main.34d32a1c.chunk.js"
   },
   {
     "revision": "ac6558077b678524db47",
